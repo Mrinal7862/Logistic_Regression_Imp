@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
+  <diagram id="B0AyD4o4nLno7VE2hlwG" name="Page-1">
+    <mxGraphModel dx="2868" dy="1492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="#FFFFFF" math="0" shadow="0" adaptiveColors="simple">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aXE2hjDEZbDd6cJX8KFI-38" value="Read Data" style="shape=rhombus;html=1;dashed=0;whiteSpace=wrap;perimeter=rhombusPerimeter;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1075" y="110" width="131" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aXE2hjDEZbDd6cJX8KFI-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aXE2hjDEZbDd6cJX8KFI-39" target="aXE2hjDEZbDd6cJX8KFI-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aXE2hjDEZbDd6cJX8KFI-39" value="E.D.A./ F.E." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;fontSize=17;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="690" y="260" width="172" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aXE2hjDEZbDd6cJX8KFI-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aXE2hjDEZbDd6cJX8KFI-40" target="aXE2hjDEZbDd6cJX8KFI-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aXE2hjDEZbDd6cJX8KFI-40" value="X, Y. target" style="html=1;dashed=0;whiteSpace=wrap;fontSize=21;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1230" y="390" width="136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aXE2hjDEZbDd6cJX8KFI-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aXE2hjDEZbDd6cJX8KFI-41" target="aXE2hjDEZbDd6cJX8KFI-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aXE2hjDEZbDd6cJX8KFI-41" value="Train/Test Split" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="610" y="550" width="185" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aXE2hjDEZbDd6cJX8KFI-42" value="Model training" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1310" y="640" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aXE2hjDEZbDd6cJX8KFI-43" value="Evaluation" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="850" y="830" width="144.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aXE2hjDEZbDd6cJX8KFI-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.581;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aXE2hjDEZbDd6cJX8KFI-38" target="aXE2hjDEZbDd6cJX8KFI-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="981" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aXE2hjDEZbDd6cJX8KFI-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.603;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aXE2hjDEZbDd6cJX8KFI-42" target="aXE2hjDEZbDd6cJX8KFI-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
